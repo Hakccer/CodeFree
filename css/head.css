@@ -1,0 +1,41 @@
+#head{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    margin-top: 1.5vw;
+    border: .2vw solid white;
+    margin-bottom: 4vw;
+    border-radius: 1vw;
+    width: 95%;
+    margin-left: 2.5vw;
+    transition-duration: .5s;
+    display: flex;
+    transition-property: background-color,color;
+}
+#allser{
+    display: flex;
+    font-size: 3vw;
+}
+#myser{
+    display: flex;
+    list-style-type: none;
+    
+}
+.services{
+    margin-left: 4vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition-property: font-size,margin-top;
+    transition-duration: 2s;
+}
+a:hover{
+    font-size: 4vw;
+    margin-top: .5vw;
+}
+#webname{
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: .5vw;
+}
